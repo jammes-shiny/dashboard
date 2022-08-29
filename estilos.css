@@ -268,24 +268,24 @@ nav .enlaces a:hover{
 
 
 
-#trabajo .after::after{
+#sensores .after::after{
   background: #03989e;
 }
-#trabajo h3{
+#sensores h3{
   color: #03989e;
 }
-#trabajo p{
+#sensores p{
   color: #03989e;
 }
-#trabajo .botones-work li{
+#sensores .botones-work li{
   color: #03989e;
   border: 1px solid #03989e;
 }
-#trabajo .botones-work li:hover{
+#sensores .botones-work li:hover{
   background: #03989e;
   color:#fff;
 }
-#trabajo .botones-work .active{
+#sensores .botones-work .active{
   background: #03989e;
   color:#fff;
 }

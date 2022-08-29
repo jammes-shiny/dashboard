@@ -12,13 +12,13 @@ $(function () {
 
     // let equipo = $('#equipo').offset().top,
     let servicio = $('#servicio').offset().top,
-        trabajo = $('#trabajo').offset().top,
+    sensores = $('#sensores').offset().top,
         contacto = $('#contacto').offset().top;
 
     window.addEventListener('resize', function(){
         // let equipo = $('#equipo').offset().top,
         let servicio = $('#servicio').offset().top,
-        trabajo = $('#trabajo').offset().top,
+        sensores = $('#sensores').offset().top,
         contacto = $('#contacto').offset().top;
     });
 
@@ -43,10 +43,10 @@ $(function () {
         },600);
     });
 
-    $('#enlace-trabajo').on('click', function(e){
+    $('#enlace-sensores').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: trabajo -100
+            scrollTop: sensores -100
         },600);
     });
 
